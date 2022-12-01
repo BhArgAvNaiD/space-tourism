@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Space tourism website</title>
+  <link rel="stylesheet" href="./css-files/index.css">
+  <link rel="stylesheet" href="./responsive-css-files/indexres.css">
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <div class="display-desktop">
+        <nav class="nav-flex m-t display-desktop">
+          <img src="./assets/shared/logo.svg" alt="logo">
+          <div class="bg-img">
+            <ul class="nav-flex">
+              <li><a href="./index.html"><span style="color:white">00</span>&nbsp;&nbsp;HOME</a></li>
+              <li><a href="./destination-moon.html"><span style="color:white">01</span>&nbsp;&nbsp;DESTINATION</a></li>
+              <li><a href="./crew-commander.html"><span style="color:white">02</span>&nbsp;&nbsp;CREW</a></li>
+              <li><a href="./technology-vehicle.html"><span style="color:white">03</span>&nbsp;&nbsp;TECHNOLOGY</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div class="display-mobile">
+        <nav class="nav-flex m-t">
+          <img src="./assets/shared/logo.svg" alt="logo">
+          <div id="list" class="toggle">
+              <ul class="flex-r list">
+                <img src="./assets/shared/icon-close.svg" alt="icon-close" class="close" id="close">
+                <li><a href="./index.html">00 HOME</a></li>
+                <li><a href="./destination-moon.html">01 DESTINATION</a></li>
+                <li><a href="./crew-commander.html">02 CREW</a></li>
+                <li><a href="./technology-vehicle.html">03 TECHNOLOGY</a></li>
+              </ul>
+          </div>
+          <img src="./assets/shared/icon-hamburger.svg" alt="icon-hamburger" class="open-icon" id="open">
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="container-2 flex-r">
+        <div class="c1">
+          <p class="medium">So, you want to travel to</p>
+          <p class="big">SPACE</p>
+          <p class="small">Let’s face it; if you want to go to space, you might as well genuinely go to
+            outer space and not hover kind of on the edge of it. Well sit back, and relax
+            because we’ll give you a truly out of this world experience!
+          </p>
+        </div>
+        <div class="c2">
+          <button class="btn">
+            <h1>Explore</h1>
+          </button>
+        </div>
+      </div>
+    </main>
+  </div>
+  <script src="./index.js"></script>
+</body>
+
+</html>

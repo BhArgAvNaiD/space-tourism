@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space tourism website</title>
+    <link rel="stylesheet" href="./css-files/technology.css">
+    <link rel="stylesheet" href="./responsive-css-files/technologyres.css">
+  </head>
+  
+  <body>
+    <div class="container">
+      <header>
+        <div class="display-desktop">
+          <nav class="nav-flex m-t display-desktop">
+            <img src="./assets/shared/logo.svg" alt="logo">
+            <div class="bg-img">
+              <ul class="nav-flex">
+                <li><a href="./index.html"><span style="color:white">00</span>&nbsp;&nbsp;HOME</a></li>
+                <li><a href="./destination-moon.html"><span style="color:white">01</span>&nbsp;&nbsp;DESTINATION</a></li>
+                <li><a href="./crew-commander.html"><span style="color:white">02</span>&nbsp;&nbsp;CREW</a></li>
+                <li><a href="./technology-vehicle.html"><span style="color:white">03</span>&nbsp;&nbsp;TECHNOLOGY</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+        <div class="display-mobile">
+          <nav class="nav-flex m-t">
+            <img src="./assets/shared/logo.svg" alt="logo">
+            <div id="list" class="toggle">
+                <ul class="flex list">
+                  <img src="./assets/shared/icon-close.svg" alt="icon-close" class="close" id="close">
+                  <li><a href="./index.html">00 HOME</a></li>
+                  <li><a href="./destination-moon.html">01 DESTINATION</a></li>
+                  <li><a href="./crew-commander.html">02 CREW</a></li>
+                  <li><a href="./technology-vehicle.html">03 TECHNOLOGY</a></li>
+                </ul>
+            </div>
+            <img src="./assets/shared/icon-hamburger.svg" alt="icon-hamburger" class="open-icon" id="open">
+          </nav>
+        </div>
+      </header>
+      <main>
+        <div class="container-2">
+          <p class="medium"><span style="color:white">03</span>&nbsp;&nbsp;Space Launch 101</p>
+          <div class="flex-r t-m">
+            <nav>
+              <ul class="flex-c">
+                <li><a href="./technology-vehicle.html">1</a></li>
+                <li><a href="./technology-spaceport.html">2</a></li>
+                <li><a href="./technology-capsule.html">3</a></li>
+              </ul>
+            </nav>
+            <div class="c2 t-m">
+              <p class="small">The terminology...</p>
+              <p class="big"> Space capsule</p>
+              <p class="small"> 
+                A space capsule is an often-crewed spacecraft that uses a blunt-body reentry 
+                capsule to reenter the Earth's atmosphere without wings. Our capsule is where 
+                you'll spend your time during the flight. It includes a space gym, cinema, 
+                and plenty of other activities to keep you entertained.</p>
+            </div>
+            <img src="./assets/technology/image-space-capsule-portrait.jpg" alt="vehicle">
+          </div>
+        </div>
+      </main>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>

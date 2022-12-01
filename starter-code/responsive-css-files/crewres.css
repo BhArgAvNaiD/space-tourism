@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&family=Oswald:wght@300;400&display=swap');
+*{
+    margin:0;
+    padding:0;
+    /* outline: 1px red solid; */
+}
+
+@media screen and (max-width:760px) {
+    .display-desktop{
+        display: none;
+    }
+
+    .display-mobile{
+        display: block;
+    }
+
+    .container{
+        max-width: 100%;
+        width:480px;
+        margin:0 auto;
+    }    
+
+    .flex-r{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .flex{
+        display:flex;
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+    }
+    
+    body{
+        background-image: url('../assets/crew/background-crew-mobile.jpg');
+        background-size:cover;
+        text-align: center;
+        font-family:'Oswald', sans-serif;
+    }
+
+    header{
+        padding:20px 0;
+    }
+
+    header nav ul li a{
+        margin:0;
+        color:white;
+    }
+    
+    header nav ul li a:hover{
+        border:none;
+    }
+    .open-icon{
+        cursor: pointer;
+    }
+
+    .close{
+        cursor: pointer;
+    }
+
+    .list{
+        position:absolute;
+        float:right;
+        top:0;
+        right:0;
+        background-image: url('../assets/crew/background-crew-mobile.jpg');
+        background-size: cover;
+        width:100vw;
+        height:100vh;
+    }
+
+    .close{
+        position:absolute;
+        z-index:1;
+        top:30px;
+        right:0;
+    }
+}

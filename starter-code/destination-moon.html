@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Space tourism website</title>
+  <link rel="stylesheet" href="./css-files/destination.css">
+  <link rel="stylesheet" href="./responsive-css-files/destinationres.css">
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <div class="display-desktop">
+        <nav class="nav-flex display-desktop">
+          <img src="./assets/shared/logo.svg" alt="logo">
+          <div class="bg-img">
+            <ul class="nav-flex">
+              <li><a href="./index.html"><span style="color:white">00</span>&nbsp;&nbsp;HOME</a></li>
+              <li><a href="./destination-moon.html"><span style="color:white">01</span>&nbsp;&nbsp;DESTINATION</a></li>
+              <li><a href="./crew-commander.html"><span style="color:white">02</span>&nbsp;&nbsp;CREW</a></li>
+              <li><a href="./technology-vehicle.html"><span style="color:white">03</span>&nbsp;&nbsp;TECHNOLOGY</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div class="display-mobile">
+        <nav class="nav-flex">
+          <img src="./assets/shared/logo.svg" alt="logo">
+          <div id="list" class="toggle">
+              <ul class="flex-r list">
+                <img src="./assets/shared/icon-close.svg" alt="icon-close" class="close" id="close">
+                <li><a href="./index.html">00 HOME</a></li>
+                <li><a href="./destination-moon.html">01 DESTINATION</a></li>
+                <li><a href="./crew-commander.html">02 CREW</a></li>
+                <li><a href="./technology-vehicle.html">03 TECHNOLOGY</a></li>
+              </ul>
+          </div>
+          <img src="./assets/shared/icon-hamburger.svg" alt="icon-hamburger" class="open-icon" id="open">
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="container-2">
+        <p class="medium"><span style="color:white">01</span>&nbsp;&nbsp;Pick your destination</p>
+        <div class="flex-r m-t">
+          <img src="./assets/destination/image-moon.png" alt="moon">
+          <div class="nav-flex c2 t-m">
+            <div>
+              <nav>
+                <ul class="flex">
+                  <li><a href="./destination-moon.html">Moon</a></li>
+                  <li><a href="./destination-mars.html">Mars</a></li>
+                  <li><a href="./destination-europa.html">Europa</a></li>
+                  <li><a href="./destination-titan.html">Titan</a></li>
+                </ul>
+              </nav>
+              <div>
+                <p class="big t-m">Moon</p>
+                <p class="small t-m">
+                  See our planet as you’ve never seen it before. A perfect relaxing trip away to help
+                  regain perspective and come back refreshed. While you’re there, take in some history
+                  by visiting the Luna 2 and Apollo 11 landing sites.
+                </p>
+                <div class="flex m-t">
+                  <div>
+                    <p class="small-n">Avg. distance</p>
+                    <p class="medium">384,400 km</p>
+                  </div>
+                  <div>
+                    <p class="small-n">Est. travel time</p>
+                    <p class="medium">3 days</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+  <script src="./index.js"></script>
+</body>
+</html>

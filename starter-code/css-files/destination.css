@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&family=Oswald:wght@300;400&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+
+.toggle{
+    display:none;
+}
+
+.container{
+    max-width: 100%;
+    width:1550px;
+    margin:0 auto;
+}
+
+.display-mobile{
+    display: none;
+}
+
+.nav-flex{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-r{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.flex{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-2{
+    max-width:100%;
+    width:1300px;
+    margin:0 auto;
+    margin-top:50px;
+}
+
+body{
+    background: url('../assets/destination/background-destination-desktop.jpg');
+    background-size:cover;
+    font-family:'Oswald', sans-serif;
+}
+
+.bg-img{
+    background-color:transparent;
+    padding:30px;
+}
+
+header{
+    position:sticky;
+    top:0;
+}
+
+
+header nav img{
+    margin-left:30px;
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color:hsl(233,8%,79%);
+    padding:30px 0;
+    margin:0 30px;
+}
+
+nav ul li a:hover{
+    border-bottom:3px solid white;
+}
+
+main nav ul{
+    list-style-type: none;
+}
+
+main nav ul li a{
+    text-decoration: none;
+    color:hsl(233,8%,79%);
+    padding:10px 0;
+    margin-right:30px;
+}
+
+main nav ul li a:hover{
+    border-bottom:3px solid white;
+}
+
+.big{
+    font-size: 100px;
+    text-transform: uppercase;
+    font-family: 'Cormorant Garamond', serif;
+    color:white;
+}
+
+.c2{
+    flex:0.4;
+}
+
+.small{
+    color:hsl(233,8%,79%);
+    border-bottom:2px solid grey;
+    padding-bottom:50px;
+}
+
+.small-n{
+    color:hsl(233,8%,79%);
+}
+
+.medium{
+    text-transform: uppercase;
+    font-size: 32px;
+    color:hsl(233,8%,79%);
+}
+
+.container-2 h1{
+    color:hsl(236,13%,42%);
+}
+
+.m-t{
+    margin-top: 50px;
+}
